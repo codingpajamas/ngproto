@@ -1,0 +1,15 @@
+<h3 class="clearfix">
+	All Contacts
+	<a href="/#/add" class="btn pull-right btn-primary">Add New Contact</a>
+</h3>
+
+<ul class="list-group">
+	<li class="list-group-item clearfix" ng-repeat="contact in contacts"> 
+		{{contact.name}}
+		<span class="pull-right">
+			<a href="/#/{{contact.id}}" class="btn btn-primary btn-xs">View</a>
+			<a href="/#/{{contact.id}}/edit" class="btn btn-success btn-xs">Edit</a>
+			<a class="btn btn-danger btn-xs" ng-click="deleteContact(contact.id, $index)">Delete</a>
+		</span>
+	</li>
+</ul>

@@ -1,0 +1,18 @@
+<h3 class="clearfix">
+	Editing Contact
+	<a href="/#/" class="btn pull-right btn-warning">Cancel</a>
+</h3>
+
+<hr/><br/>
+
+<form class="row" ng-submit="editContact()">
+	<div class="col-sm-5">
+		<input type="text" ng-model="contact.name" class="form-control" placeholder="Name" />
+	</div> 
+	<div class="col-sm-5">
+		<input type="text" ng-model="contact.number" class="form-control" placeholder="Number" />
+	</div>
+	<div class="col-sm-2">
+		<input type="submit" class="btn btn-primary btn-block" value="Submit"></input>
+	</div>
+</form>

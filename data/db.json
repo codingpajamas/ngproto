@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Spongebobxr",
+      "number": "123456789xx"
+    },
+    {
+      "id": 2,
+      "name": "Patrickxr",
+      "number": 123456789
+    },
+    {
+      "id": 3,
+      "name": "Squidwards",
+      "number": "123456789"
+    },
+    {
+      "id": 4,
+      "name": "Mr. Krabs",
+      "number": "123456789"
+    }
+  ]
+}
